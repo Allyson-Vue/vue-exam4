@@ -1,3 +1,8 @@
+<!--Export default exports Vue components to other parts of the website,
+You can put your data and methods here.
+
+.$emit sends the data from the child component to the parent
+(in this case, this.searchName to @search-pet)-->
 <script>
 export default {
     data() {
@@ -14,6 +19,10 @@ export default {
 }
 </script>
 
+<!--
+v-model binds the user input value to the data-value.
+@click makes the button activate the method "search"
+-->
 <template>
     <nav>
         <router-link to="/">Home</router-link>

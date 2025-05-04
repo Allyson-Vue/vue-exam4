@@ -1,6 +1,7 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
 import Nav from './components/Nav.vue'
+//Use "router-view" and "router-link" instead of RouterView and RouterLink
 
 export default {
   components: {Nav},
